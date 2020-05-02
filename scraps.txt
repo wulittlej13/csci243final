@@ -1,0 +1,36 @@
+//  Account.find({
+		// 	where:{
+		// 		username: user,
+		// 		//password: pass
+		// 	}
+		// }).then((account) => {
+		// 	console.log(account)
+		// 	if(account.username != user || null)
+		// 	{
+		// 		Account.create({
+		// 			username: user,
+		// 			password: pass
+		// 		})
+		// 		console.log("account created")
+		// 	}
+		// 	else
+		// 	{
+		// 		socket.emit('UserSetting' , {username: user});
+		// 	}
+			
+		//})
+			
+		 // let account = Account.find({where:{
+		// 	username: user
+		// }}).then((account) => {
+		// 	console.log(account.data)
+		// 	if(account.username === user)
+		// 		console.log("not broken")
+		// 	else
+		// 	{
+		// 		Account.create({
+		// 		username: user,
+		// 		password: pass
+		// 	})
+		// 	console.log("account created")
+		// }});

@@ -1,0 +1,46 @@
+.sidebar {
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 75%;
+    background-color: #00FFFF;
+    overflow-x: hidden;
+    padding-top: 20px;
+        }
+p.a{
+  font-size: 22px;
+}
+
+body{
+  background-color: cadetblue;
+}
+.login{
+  background: lightblue;
+  flex-grow: 1;
+  position: absolute;
+  left: 75%;
+  padding: 30px, 30px, 30px, 30px;
+  
+}
+
+.chatBox{
+  background: lightblue;
+  flex-grow: 1;
+  position: absolute;
+  left: 75%;
+  top: 30%;
+  padding: 30px, 30px, 30px, 30px;  
+}
+
+.videoBox{
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+
+.queue{
+  position: absolute;
+  top: 40%;
+}

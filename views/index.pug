@@ -1,0 +1,46 @@
+doctype html
+html
+    head
+        title ChatWorld
+        link(rel="stylesheet" type="text/css" href = "/styles/style.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(src="/javascripts/index.js")
+        script(src="/socket.io/socket.io.js")
+
+    body(class="layout")
+        h1 Jam World
+        br
+        div(class="login" id="login")
+            h2 no account no chat:
+            h2 enter a username:
+                input(type="text" id="user")
+            h2 enter a password:
+                input(type="text" id="pass")
+            button(id="setUser") set name
+        
+        h3(id="welcome")
+        div(id="logout")
+            button(id="logoutBtn") logout
+        div(class="requestBox")
+            h2 queue a song by posting a link
+            label (artist-title)
+                input(type="text" name="song" id="song")
+            label link:
+                input(type="text" name="link" id="link")
+                button(id="req") request
+        div(class="videoBox")
+            iframe(width="480" height="480" controls src="https://www.youtube.com/watch?v=-Drym71SeOY")
+            <!- video( width="480" height="480" controls) placehoder
+                source(src="https://www.youtube.com/watch?v=-Drym71SeOY" type ="video/mp4")
+        div(class = "queue")
+            label Queue:
+                textarea(id = "queue" rows="10" cols= "40")
+        div(class = "chatBox")
+            h2 chat it up:
+                input(type="text" name="message" id="message")
+                button(id="submit" type="submit") submit
+            textarea(id = "pool" rows="10" cols ="50")
+
+        
+            
+        

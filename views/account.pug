@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        title ChatWorld
+        link(rel="stylesheet" type="text/css" href = "/styles/style.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(src="/javascripts/account.js")
+        script(src="/socket.io/socket.io.js")
+
+    body
+        h1 welcome to Chat world
+        br
+        form(action="/" method = "POST")
+            h2 enter a username:
+                input(type="text" id="user")
+            h2 enter a password:
+                input(type="password" id='pass')
+            button(type= "submit") create account
+            
